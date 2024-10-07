@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -10,8 +11,8 @@
     margin: 0 auto;
 
 
-    border: 1px solid black;
-    min-height: 80;
+    /*border: 1px solid black;
+    min-height: 80;*/
 
 }
 
@@ -22,31 +23,47 @@ ul {
     list-style: none;
 }
 /* header */
-
+a {
+    color: inherit;
+}
 .header {
-    background-color:lightblue;
-   
+    background-color:#3161E0;
+
     padding: 10 0;
 }
-
+.Accedi {
+    color: inherit;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: white;
+    text-decoration: none;
+}
+.sottolineato {
+    text-decoration: none;
+}
 .header-top {
     height: 40px;
-    background-color: lightblue;
+    background-color:#3161E0;
     display: flex;
     justify-content: center;
 }
 
 .col-20 {
     width: 20%;
+    
 }
 .col-60 {
     width: 60%;
     text-align: center;
+    
 }
+
 .nav-list {
     display: flex;
     justify-content: center;
     gap: 15px;
+    color: white;
 
 }
 .text-right {
@@ -54,19 +71,18 @@ ul {
 }
 
 .header-bottom {
-    background-color: fuchsia;
+    background-color:inherit;
     height: 100px;
     width: 300px;
     margin: 20px;
-
+color: white;
 }
 
 .box1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
-
+    background-image: url(../htmlcss-discord/img/jumbo.png);
 }
 
 
@@ -95,7 +111,6 @@ ul {
 
 .section1 {
     border: 1px solid black;
-
 }
 
 .section2 {
