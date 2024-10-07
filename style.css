@@ -90,9 +90,7 @@ text-align: center;
     background-image: url(../htmlcss-discord/img/jumbo.png);
     
 }
-.didascalia1 {
-    max-height: 100%;
-}
+
 .Scarica {
     color: black;
     background-color: white;
@@ -112,7 +110,7 @@ text-align: center;
 }
 .col-70 {
    /* background-color: lightskyblue;*/
-    width: 70%;
+    width: 60%;
     height: 200px;
 
 
@@ -120,8 +118,9 @@ text-align: center;
 
 .col-30 {
    /* background-color: lightpink;*/
-    width: 30%;
+    width: 40%;
     max-height: 100%;
+    font-size: smaller;
     
 }
 
@@ -135,11 +134,18 @@ text-align: center;
 
 .section1 {
    /* border: 1px solid black;*/
-    
+   padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .section2 {
     background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section3 {
+    padding-top: 20;
+    padding-bottom: 20;
 }
 
 .col-100 {
