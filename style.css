@@ -149,18 +149,22 @@ text-align: center;
 }
 
 .col-100 {
-    background-color: chartreuse;
-    width: 400px;
-    height: 400px;
+   /* background-color: chartreuse;*/
+text-align: center;
+    
     padding: 20 20;
+    margin-top: 10;
 }
-
+.didascalia2 {
+    font-size: smaller;
+    
+}
 .row4 {
     display: flex;
     justify-content: center;
-    height: 500px;
-    width: 90%;
-    max-width: 1100;
+    
+  /*  width: 90%;
+    max-width: 1100;*/
     align-items: center;
 }
 
