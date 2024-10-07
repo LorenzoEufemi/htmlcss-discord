@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+
+    border: 1px solid black;
+    min-height: 80;
+
+}
+
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+}
+/* header */
+
+.header {
+    background-color:lightblue;
+   
+    padding: 10 0;
+}
+
+.header-top {
+    height: 40px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.col-20 {
+    width: 20%;
+}
+.col-60 {
+    width: 60%;
+    text-align: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.text-right {
+    text-align: right;
+}
+
+.header-bottom {
+    background-color: fuchsia;
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}
+
+
+/* main */
+
+.col-70 {
+    background-color: lightskyblue;
+    width: 70%;
+    height: 200px;
+
+}
+
+.col-30 {
+    background-color: lightpink;
+    width: 30%;
+    height: 200px;
+}
+
+.row {
+    display: flex;
+
+    padding: 10px;
+    margin: 10 auto;
+
+}
+
+.section1 {
+    border: 1px solid black;
+
+}
+
+.section2 {
+    background-color: lightgray;
+}
+
+.col-100 {
+    background-color: chartreuse;
+    width: 400px;
+    height: 400px;
+    padding: 20 20;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 90%;
+    max-width: 1100;
+    align-items: center;
+}
+
+.section4 {
+    background-color: lightgray;
+
+}
+
+/* footer */
+
+.footer {
+    background-color: black;
+    height: 200px;
+}
+
+.blocco1 {
+    background-color: lightcoral;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.same {
+    width: calc(70%/4);
+    background-color: cadetblue;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.secfoot {
+    display: flex;
+}
+
+.riga {
+    color: red;
+
+    height: 1px;
+}
+
+.footbottom {
+    background-color: aquamarine;
+    height: 50px;
+
+
+
+
+}
+
+.last1 {
+    background-color: blueviolet;
+    height: 100;
+    width: 50;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
